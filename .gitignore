@@ -1,0 +1,22 @@
+# Secrets — never commit these
+.env
+*.pem
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# R (if any R artifacts land here)
+.Rhistory
+.RData
+
+# OS
+.DS_Store
+
+# Outputs (regenerated every run)
+Report/
+Data/
